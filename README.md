@@ -22,7 +22,7 @@ docker build -t billingapp-front:0.0.4 --no-cache .
  cd ../../db
 kubectl apply -f ./
 ```
-6. Build to billingApp k8 service definitios and apply 
+6. Build to billingApp k8 service definitios and apply finish 
 ```sh
  cd ../billingApp
 kubectl apply -f ./
